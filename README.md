@@ -10,23 +10,12 @@ Next, in order to handle imbalanced crashes datasets and provide a better predic
 Four machine learning algorithms would be used in this project: K-Nearest Neighbor (KNN), Logistic Regression (LR), Decision Tree and Random Forest (RF). Furthermore, with a goal of showing that RUMC and ROMC are useful in defining non-weak classifiers in predicting the minority class, the project provides a comparison between two scenarios. One scenario is training the four machine learning algorithms on imbalanced training dataset. Another scenario is training four machine learning algorithms on balanced training set with the use of a RUMC-ROMC based method. The project will calculate and compare the performance of different classifiers on different metrics: accuracy, true positive rate (recall), false positive rate, true negative rate, precision, F1-score, and the confusion matrix.
 
 ### Materials
-
-Original dataset, it's where we use to identify the relationship of different entities.
+Code and data source link:
 ```
-Bee2Waste Database_V2.xlsx
-```
-
-Final database
-```
-Bee2waste.db
-```
-
-Code for connecting SQL database and Python for all SQL users and Python users
-```
-Bee2waste.ipynb
+severity-prediction-in-sfo-bay-areasipynb.ipynb
 ```
 
 For literature review, methods, results and analysis, please refer to:
 ```
-Final Report of Central SQL Database of Solid Waste Management System.docx
+final_report.pdf
 ```
